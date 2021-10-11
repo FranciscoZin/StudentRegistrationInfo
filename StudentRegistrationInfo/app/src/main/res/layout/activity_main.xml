@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/l1"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/l2"
+
+        android:orientation="horizontal"
+        android:layout_below="@+id/l1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Student Name:"
+            android:textSize="20sp"/>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/e1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/l3"
+        android:orientation="horizontal"
+        android:layout_below="@+id/l2">
+
+        <TextView
+            android:layout_width="194dp"
+            android:layout_height="50dp"
+            android:text="Enter Student Age:"
+            android:textSize="20sp" />
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/e2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/l4"
+        android:orientation="horizontal"
+        android:layout_below="@+id/l3">
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Enter Student Grade:"
+            android:textSize="20sp"/>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/e3"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/l5"
+
+        android:orientation="horizontal"
+        android:layout_below="@+id/l4">
+
+        <TextView
+            android:layout_width="262dp"
+            android:layout_height="wrap_content"
+            android:text="Enter Student Parent Name:"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/e4"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/l6"
+        android:orientation="horizontal"
+        android:layout_below="@+id/l5">
+
+        <TextView
+            android:layout_width="229dp"
+            android:layout_height="50dp"
+            android:text="Enter Student Contact:"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/e5"
+            android:layout_width="178dp"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/l7"
+        android:orientation="horizontal"
+        android:layout_below="@+id/l6">
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Enter Student Email:"
+            android:textSize="20sp"/>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/e6"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/l7"
+        android:id="@+id/l8"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:id="@+id/b1"
+            android:text="Add"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:id="@+id/b2"
+            android:text="Delete"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+
+        android:id="@+id/l9"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_below="@+id/l8">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:id="@+id/b3"
+            android:text="Modify"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:id="@+id/b4"
+            android:text="View"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/l10"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/l9"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/b5"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="ViewAll" />
+
+        <Button
+            android:id="@+id/b6"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="SQLite Details" />
+    </LinearLayout>
+
+
+    </RelativeLayout>
